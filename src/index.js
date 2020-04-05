@@ -1,13 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import {BrowserRouter as Router} from "react-router-dom";
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-
+import {ProductProvider} from "./context";
 ReactDOM.render(
-  <React.StrictMode>
+  <ProductProvider>
+  <Router>
     <App />
-  </React.StrictMode>,
+  </Router>
+  </ProductProvider>,
   document.getElementById('root')
 );
 
@@ -15,3 +18,7 @@ ReactDOM.render(
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
+// const PORT = process.env.PORT || 5000;
+// app.listen(PORT, () => {
+//   console.log(`app running on port ${PORT}`)
+// });
