@@ -19,9 +19,9 @@ export default class Model extends Component {
               <div className="row">
               <div id="modal" className="p-5 col-8 mx-auto col-md-6 col-lg-4 text-center text-capitalize">
               <h5> Item added to the cart.</h5>
-              <img src={img} className="img-fluid" alt="oo" />
+              <img src={img} className="img-fluid" alt="oo" style={{height:'25rem'}} />
               <h5>{title}</h5>
-              <h5 className="text-muted">price: ${price}</h5>
+              <h5 className="text-muted">price: Rs {price}</h5>
               <Link to='/'><Button onClick={()=>{
                 closem();
               }}>Continue Shopping

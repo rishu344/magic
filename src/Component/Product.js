@@ -15,7 +15,7 @@ render(){
           value.handelDetail(id);}
         }>
           <Link to="/details" >
-            <img src={img} alt="po" className="card-img-top" />
+            <img src={img} alt="po" className="card-img-top" style={{height:'15rem'}} />
           </Link>
           <button className="cart-btn" disabled={inCart ? true : false } onClick={()=>{value.addtoCart(id);
             value.openm(id);
@@ -29,7 +29,7 @@ render(){
         <div className="card-footer d-flex justify-content-between">
           <p className="align-self-center mb-0">{title}</p>
           <h5 className="text-blue font-italic mb-0">
-            <span className="mr-1">${price}
+            <span className="mr-1">Rs {price}
             </span>
           </h5>
         </div>

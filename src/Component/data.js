@@ -4,8 +4,7 @@ export const storeProducts = [
     title:"Purse",
     img:"image/DSC_0070.jpg",
     price:50,
-    info:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    info:"These are the Products which are made by the naturally handicapped people of andhjan-mandal.",
     inCart:false,
     count:0,
     total:0
@@ -15,8 +14,7 @@ export const storeProducts = [
     title:"Key-chain",
     img:"image/DSC_0042.jpg",
     price:30,
-    info:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    info:"These are the Products which are made by the naturally handicapped people of andhjan-mandal.",
     inCart:false,
     count:0,
     total:0
@@ -26,8 +24,7 @@ export const storeProducts = [
     title:"Bag",
     img:"image/DSC_0052.jpg",
     price:100,
-    info:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    info:"These are the Products which are made by the naturally handicapped people of andhjan-mandal.",
     inCart:false,
     count:0,
     total:0
@@ -37,8 +34,7 @@ export const storeProducts = [
     title:"Show-piece",
     img: "image/DSC_0037.jpg",
     price:100,
-    info:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    info:"These are the Products which are made by the naturally handicapped people of andhjan-mandal.",
     inCart:false,
     count:0,
     total:0
@@ -47,42 +43,39 @@ export const storeProducts = [
     id:5,
     title:"tiffin-cover",
     img:"image/DSC_0073.jpg",
-    price:50,
-    info:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    price:150,
+    info:"These are the Products which are made by the naturally handicapped people of andhjan-mandal.",
     inCart:false,
     count:0,
     total:0
   },
   {
     id:6,
-    title:"tiffin-cover",
+    title:"Photo-Frame",
     img:"image/DSC_0075.jpg",
-    price:50,
-    info:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    price:200,
+    info:"These are the Products which are made by the naturally handicapped people of andhjan-mandal.",
     inCart:false,
     count:0,
     total:0
   },
   {
     id:7,
-    title:"tiffin-cover",
-    img:"image/DSC_0068.jpg",
-    price:50,
+    title:"Necklace",
+    img:"image/IMG_1515.jpg",
+    price:100,
     info:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "These are the Products which are made by the naturally handicapped people of andhjan-mandal.",
     inCart:false,
     count:0,
     total:0
   },
   {
     id:8,
-    title:"tiffin-cover",
-    img:"image/DSC_0086.jpg",
+    title:"Cushion Cover",
+    img:"image/DSC_0062.jpg",
     price:50,
-    info:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    info:"These are the Products which are made by the naturally handicapped people of andhjan-mandal.",
     inCart:false,
     count:0,
     total:0
@@ -94,8 +87,7 @@ export const detailProduct = {
   title:"Show-piece",
   img:"image/DSC_0037.jpg",
   price:100,
-  info:
-  "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+  info:"These are the Products which are made by the naturally handicapped people of andhjan-mandal.",
   inCart:false,
   count:0,
   total:0
